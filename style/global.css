@@ -2,21 +2,22 @@
 
 :root {
   ---tipography-00: 'Archivo', sans-serif;
-  
-  ---color-primary-00: #26D360;
-  ---color-neutral-verydark: #121212;
-  ---color-neutral-light: #C4C4C4;
-  ---color-neutral-verylight: #fff;
-  ---color-gradient-primary: rgba(0,0,0,0.98);
-  ---color-dange-00: #D32626;
 
-  ---radius-full: border-radius: 50%;
-  ---radius-xs: border-radius: 8px;
-  ---radius-none: border-radius: none;
+  ---color-primary-00: #26d360;
+  ---color-neutral-verydark: #121212;
+  ---color-neutral-light: #c4c4c4;
+  ---color-neutral-verylight: #fff;
+  ---color-gradient-primary: rgba(0, 0, 0, 0.98);
+  ---color-dange-00: #d32626;
+
+  ---radius-full: 50%;
+  ---radius-xs: 8px;
+  ---radius-none: none;
 
   ---spacing-vertical-nano: 4px;
   ---spacing-vertical-xxs: 8px;
   ---spacing-vertical-xs: 16px;
+  ---spacing-vertical-xm: 40px;
 
   ---spacing-inline-xxs: 8px;
   ---spacing-inline-xs: 16px;
@@ -27,4 +28,81 @@ body {
   font-family: var(---tipography-00);
   background-color: var(---color-neutral-verydark);
   color: var(---color-neutral-verylight);
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.radius-full {
+  border-radius: var(---radius-full);
+}
+
+.radius-xs {
+  border-radius: var(---radius-xs);
+}
+
+.radius-none {
+  border-radius: var(---radius-none);
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+  margin-left: var(---spacing-vertical-xs);
+  text-align: center;
+}
+
+.cards div:first-child {
+  margin-left: 0;
+}
+
+.card img {
+  width: 124px;
+  height: 124px;
+  background-size: auto;
+}
+
+.m-bottom-xs {
+  margin-bottom: var(---spacing-vertical-xs);
+}
+
+.m-bottom-xxs {
+  margin-bottom: var(---spacing-vertical-xxs);
+}
+
+.m-bottom-nano {
+  margin-bottom: var(---spacing-vertical-nano);
+}
+
+.m-top-xs {
+  margin-top: var(---spacing-vertical-xs);
+}
+
+.m-top-xxs {
+  margin-top: var(---spacing-vertical-xxs);
+}
+
+.m-top-nano {
+  margin-top: var(---spacing-vertical-nano);
+}
+
+.m-top-xm {
+  margin-top: var(---spacing-vertical-xm);
+}
+
+.t-align-left {
+  text-align: left;
 }
