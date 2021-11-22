@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clone Spotify</title>
-    <link href="style/global.css" rel="stylesheet" />
+    <link href="./style/global.css" rel="stylesheet" />
+    <link href="./style/home-mobile.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
   </head>
   <body>
-    <header class="header">
+    <header class="mobile-header">
       <h1>Boa noite</h1>
-      <div class="header-icons"></div>
+      <div class="icons">
+        <span class="btn-icon"><i data-feather="bell"></i></span>
+        <span class="btn-icon"><i data-feather="settings"></i></span>
+      </div>
     </header>
     <container>
       <section class="recentes">
@@ -23,10 +28,19 @@
         <h1>Feito para Carlos Gizbert</h1>
       </section>
     </container>
-    <div class="menuMobile">
+    <div class="mobile-player">
+      <div class="capa">
+        <div class="musica">Avicii - Levels (Radio Edit)</div>
+      </div>
+      <div class="controle">Play/Pause</div>
+    </div>
+    <div class="mobile-menu">
       <div>Início</div>
       <div>Buscar</div>
       <div>Sua biblioteca</div>
     </div>
+    <script>
+      feather.replace()
+    </script>
   </body>
 </html>

@@ -1,0 +1,27 @@
+@import url('./global.css');
+
+header {
+  height: 120px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.icons {
+  flex-direction: row;
+}
+
+.btn-icon {
+  cursor: pointer;
+  padding: 16px;
+  display: inline;
+  align-items: center;
+  vertical-align: middle;
+}
