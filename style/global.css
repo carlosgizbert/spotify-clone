@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
 :root {
-  ---tipography-00: font-family: 'Archivo', sans-serif;
+  ---tipography-00: 'Archivo', sans-serif;
   
   ---color-primary-00: color: #26D360;
   ---color-neutral-verydark: color: #121212;
@@ -13,9 +13,16 @@
   ---radius-full: border-radius: 50%;
   ---radius-xs: border-radius: 8px;
   ---radius-none: border-radius: none;
-}
 
+  ---spacing-vertical-nano: 4px;
+  ---spacing-vertical-xxs: 8px;
+  ---spacing-vertical-xs: 16px;
+
+  ---spacing-inline-xxs: 8px;
+  ---spacing-inline-xs: 16px;
+}
 
 body {
   margin: 0 auto;
+  font-family: var(---tipography-00);
 }
