@@ -1,0 +1,23 @@
+@import url(../../global.css);
+@import url(../../home-mobile.css);
+
+.mobile-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  height: 86px;
+  background: rgba(16, 16, 16, 0.98);
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.mobile-menu div {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,41 @@
+@import url(../../global.css);
+
+.mobile-player {
+  bottom: 106px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 90vw;
+  margin-left: var(---spacing-vertical-xs);
+  margin-right: var(---spacing-vertical-xs);
+  padding-left: var(---spacing-inline-xxs);
+  padding-right: var(---spacing-inline-xxs);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.98) 0%, #000000 100%);
+  border-radius: var(---radius-xs);
+}
+
+.mobile-player-current {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mobile-player-current-cover {
+  background-image: url(../../../img/artists/01_charlie_brown/1.png);
+  background-size: cover;
+  height: 48px;
+  width: 48px;
+  border-radius: var(---radius-xs);
+}
+
+.mobile-player-current-title {
+  margin-left: var(---spacing-inline-xs);
+}
+
+.mobile-player-current-control {
+  height: 48px;
+  width: 48px;
+}

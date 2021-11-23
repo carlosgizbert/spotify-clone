@@ -25,11 +25,11 @@
 
 body {
   margin: 0 auto;
+  width: 100vw;
   font-family: var(---tipography-00);
   background-color: var(---color-neutral-verydark);
   color: var(---color-neutral-verylight);
   font-size: 14px;
-  overflow-x: hidden;
 }
 
 h1 {
@@ -66,17 +66,14 @@ h1 {
   text-align: center;
 }
 
+.margin-l-r {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
 .subtitle {
   color: var(---color-neutral-light);
   line-height: 20px;
-}
-
-.recentes {
-  max-width: 100%;
-  background-color: red;
-}
-
-.cards {
 }
 
 .cards div:first-child {

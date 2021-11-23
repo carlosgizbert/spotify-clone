@@ -1,4 +1,4 @@
-@import url('./global.css');
+@import url('../style/global.css');
 
 header {
   height: 120px;
@@ -7,11 +7,13 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-left: var(---spacing-vertical-xs);
+  margin-right: var(---spacing-vertical-xs);
 }
 
-body {
-  margin-left: 16px;
-  margin-right: 16px;
+main {
+  margin-left: var(---spacing-vertical-xs);
+  margin-right: var(---spacing-vertical-xs);
 }
 
 .icons {
