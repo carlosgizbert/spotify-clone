@@ -29,6 +29,7 @@ body {
   background-color: var(---color-neutral-verydark);
   color: var(---color-neutral-verylight);
   font-size: 14px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -63,6 +64,19 @@ h1 {
   cursor: pointer;
   margin-left: var(---spacing-vertical-xs);
   text-align: center;
+}
+
+.subtitle {
+  color: var(---color-neutral-light);
+  line-height: 20px;
+}
+
+.recentes {
+  max-width: 100%;
+  background-color: red;
+}
+
+.cards {
 }
 
 .cards div:first-child {
@@ -101,6 +115,10 @@ h1 {
 
 .m-top-xm {
   margin-top: var(---spacing-vertical-xm);
+}
+
+.f-align-left {
+  align-items: flex-start;
 }
 
 .t-align-left {
