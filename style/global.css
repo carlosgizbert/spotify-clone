@@ -8,6 +8,7 @@
   ---color-neutral-light: #c4c4c4;
   ---color-neutral-verylight: #fff;
   ---color-gradient-primary: rgba(0, 0, 0, 0.98);
+  ---color-gradient-blue: linear-gradient(134.56deg, #4532eb 0%, #9abbb0 100%);
   ---color-dange-00: #d32626;
 
   ---radius-full: 50%;
@@ -58,14 +59,6 @@ h1 {
   flex-direction: column;
 }
 
-.card {
-  align-items: center;
-  align-content: center;
-  cursor: pointer;
-  margin-left: var(---spacing-vertical-xs);
-  text-align: center;
-}
-
 .margin-l-r {
   margin-left: 24px;
   margin-right: 24px;
@@ -74,16 +67,6 @@ h1 {
 .subtitle {
   color: var(---color-neutral-light);
   line-height: 20px;
-}
-
-.cards div:first-child {
-  margin-left: 0;
-}
-
-.card img {
-  width: 124px;
-  height: 124px;
-  background-size: auto;
 }
 
 .m-bottom-xs {

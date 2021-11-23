@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 90vw;
+  width: 100vw;
   margin-left: var(---spacing-vertical-xs);
   margin-right: var(---spacing-vertical-xs);
   padding-left: var(---spacing-inline-xxs);

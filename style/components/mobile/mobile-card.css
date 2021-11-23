@@ -1,0 +1,25 @@
+.mobile-card {
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+  margin-left: var(---spacing-vertical-xs);
+  text-align: center;
+}
+
+.mobile-card-curtidas {
+  width: 124px;
+  height: 124px;
+  background: url(../../../assets/hearth.svg), var(---color-gradient-blue);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.mobile-cards div:first-child {
+  margin-left: 0;
+}
+
+.mobile-card img {
+  width: 124px;
+  height: 124px;
+  background-size: auto;
+}

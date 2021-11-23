@@ -1,5 +1,9 @@
 @import url('../style/global.css');
 
+@import url('./components/mobile/mobile-card.css');
+@import url('./components/mobile/mobile-menu.css');
+@import url('./components/mobile/mobile-player.css');
+
 header {
   height: 120px;
   display: flex;
@@ -29,5 +33,18 @@ main {
 }
 
 .btn-icon:hover {
+  color: var(---color-neutral-light);
+}
+
+.mobile-footer {
+  height: 220px;
+}
+
+.mobile-menu-btn {
+  width: 100%;
+  cursor: pointer;
+}
+
+.mobile-menu-btn:hover {
   color: var(---color-neutral-light);
 }
