@@ -21,5 +21,8 @@
 .mobile-card img {
   width: 124px;
   height: 124px;
-  background-size: auto;
+}
+
+.mobile-card {
+  background-size: cover;
 }

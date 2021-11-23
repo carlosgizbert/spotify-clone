@@ -15,13 +15,13 @@
   ---radius-xs: 8px;
   ---radius-none: none;
 
-  ---spacing-vertical-nano: 4px;
-  ---spacing-vertical-xxs: 8px;
-  ---spacing-vertical-xs: 16px;
-  ---spacing-vertical-xm: 40px;
+  ---spacing-vertical-nano: 0.25rem;
+  ---spacing-vertical-xxs: 0.5rem;
+  ---spacing-vertical-xs: 1rem;
+  ---spacing-vertical-xm: 2.5rem;
 
-  ---spacing-inline-xxs: 8px;
-  ---spacing-inline-xs: 16px;
+  ---spacing-inline-xxs: 0.5rem;
+  ---spacing-inline-xs: 1rem;
 }
 
 body {
@@ -30,7 +30,7 @@ body {
   font-family: var(---tipography-00);
   background-color: var(---color-neutral-verydark);
   color: var(---color-neutral-verylight);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 h1 {
