@@ -7,22 +7,21 @@
 }
 
 .mobile-card-curtidas {
-  width: 124px;
-  height: 124px;
+  width: 7.75rem;
+  height: 7.75rem;
   background: url(../../../assets/hearth.svg), var(---color-gradient-blue);
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .mobile-card img {
-  width: 124px;
-  height: 124px;
+  width: 7.75rem;
+  height: 7.75rem;
 }
 
-/*
 .mobile-cards:first-child {
   margin-left: 0;
-}*/
+}
 
 .mobile-card {
   background-size: cover;
@@ -39,8 +38,8 @@
 }
 
 .mobile-card-img {
-  width: 124px;
-  height: 124px;
+  width: 7.75rem;
+  height: 7.75rem;
   background-size: cover;
   background-image: url('../../../img/cover.jpg');
 }
