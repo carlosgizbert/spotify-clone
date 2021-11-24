@@ -21,3 +21,24 @@
   align-items: center;
   flex-direction: column;
 }
+
+.mobile-menu-btn {
+  width: 100%;
+  cursor: pointer;
+}
+
+.mobile-menu-btn:hover {
+  color: var(---color-neutral-verylight);
+}
+
+.mobile-menu-btn i {
+  color: var(---color-neutral-verylight);
+}
+
+.mobile-menu-btn-active {
+  color: var(---color-neutral-verylight);
+}
+
+.mobile-menu-btn-inactive {
+  color: var(---color-neutral-light);
+}

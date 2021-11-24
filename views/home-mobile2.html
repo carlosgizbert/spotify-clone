@@ -7,7 +7,11 @@
     <title>Clone Spotify</title>
     <link href="../style/global.css" rel="stylesheet" />
     <link href="../style/home-mobile.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/scripts/slick-1.8.1/slick.min.js"></script>
   </head>
   <body>
     <header class="mobile-header">
@@ -20,19 +24,13 @@
     <main>
       <section class="recentes">
         <h1>Tocadas recentemente</h1>
-        <div class="mobile-cards flex-row">
-          <div class="mobile-card flex-column">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-full m-bottom-xs"
-            />
+        <div class="mobile-cards">
+          <div class="mobile-card flex-column ">
+            <div class="mobile-card-img radius-full m-bottom-xs"></div>
             <span class="title">Charlie Brown Jr</span>
           </div>
           <div class="mobile-card flex-column">
-            <img
-              src="../img/artists/5_elvis/1.jpg"
-              class="radius-full m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-full m-bottom-xs"></div>
             <span class="title">Elvis Presley</span>
           </div>
           <div class="mobile-card flex-column f-align-left">
@@ -40,17 +38,11 @@
             <span class="title">Músicas Curtidas</span>
           </div>
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/5_elvis/1.jpg"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Elvis Presley</span>
           </div>
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/5_elvis/1.jpg"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Elvis Presley</span>
           </div>
         </div>
@@ -60,50 +52,35 @@
         <h1>Suas músicas estão com saudade</h1>
         <div class="mobile-cards flex-row">
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/03_avicii/1.jpg"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Avicii</span>
             <span class="subtitle t-align-left m-top-xxs"
               >Ouça aqui os maiores hits de Avicii</span
             >
           </div>
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/02_linkin_park/1.jpg"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Linkin Park</span>
             <span class="subtitle t-align-left m-top-xxs"
               >Chris Bell, Scot Holt, Gene Deer, Luther Johnson</span
             >
           </div>
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/playlist/01_lofi/1.jpg"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Lo-fi Instrumental</span>
             <span class="subtitle t-align-left m-top-xxs"
               >The best Lofi Hip Hop & Chill Music in 2021 ...</span
             >
           </div>
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Elvis Presley</span>
             <span class="subtitle t-align-left m-top-xxs"
               >Ouça aqui os maiores hits de Alok, com Alive</span
             >
           </div>
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Elvis Presley</span>
             <span class="subtitle t-align-left m-top-xxs"
               >Ouça aqui os maiores hits de Alok, com Alive</span
@@ -116,60 +93,42 @@
         <h1>Feito para Carlos Gizbert</h1>
         <div class="mobile-cards flex-row">
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Alok 2021 Lanç...</span>
             <span class="subtitle t-align-left m-top-xxs"
               >Ouça aqui os maiores hits de Alok, com Alive</span
             >
           </div>
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Bob Marley</span>
             <span class="subtitle t-align-left m-top-xxs"
               >Ouça aqui os maiores hits de Alok, com Alive</span
             >
           </div>
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Elvis Presley</span>
             <span class="subtitle t-align-left m-top-xxs"
               >Ouça aqui os maiores hits de Alok, com Alive</span
             >
           </div>
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Elvis Presley</span>
             <span class="subtitle t-align-left m-top-xxs"
               >Ouça aqui os maiores hits de Alok, com Alive</span
             >
           </div>
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Elvis Presley</span>
             <span class="subtitle t-align-left m-top-xxs"
               >Ouça aqui os maiores hits de Alok, com Alive</span
             >
           </div>
           <div class="mobile-card flex-column f-align-left">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-none m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-none m-bottom-xs"></div>
             <span class="title">Elvis Presley</span>
             <span class="subtitle t-align-left m-top-xxs"
               >Ouça aqui os maiores hits de Alok, com Alive</span
@@ -177,35 +136,24 @@
           </div>
         </div>
       </section>
+
       <section class="artistas-preferidos m-top-xm">
         <h1>Seus artistas preferidos</h1>
         <div class="mobile-cards flex-row">
           <div class="mobile-card flex-column">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-full m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-full m-bottom-xs"></div>
             <span class="title">Bee Gees</span>
           </div>
           <div class="mobile-card flex-column">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-full m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-full m-bottom-xs"></div>
             <span class="title">Charlie Brown Jr</span>
           </div>
           <div class="mobile-card flex-column">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-full m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-full m-bottom-xs"></div>
             <span class="title">Avicii</span>
           </div>
           <div class="mobile-card flex-column">
-            <img
-              src="../img/artists/01_charlie_brown/1.png"
-              class="radius-full m-bottom-xs"
-            />
+            <div class="mobile-card-img radius-full m-bottom-xs"></div>
             <span class="title">Elvis Presley</span>
           </div>
         </div>
@@ -223,21 +171,37 @@
       <div class="mobile-player-play"><span class="btn-icon"><i data-feather="play"></i></span></div>
     </div>
     <div class="mobile-menu">
-      <div class="mobile-menu-btn">
+      <div class="mobile-menu-btn mobile-menu-btn-active">
         <span class="mobile-menu-btn-icon"><i data-feather="home"></i></span>
         Início
       </div>
-      <div class="mobile-menu-btn">
+      <div class="mobile-menu-btn mobile-menu-btn-inactive">
         <span class="mobile-menu-btn-icon"><i data-feather="search"></i></span>
         Buscar
       </div>
-      <div class="mobile-menu-btn">
+      <div class="mobile-menu-btn mobile-menu-btn-inactive">
         <span class="mobile-menu-btn-icon"><i data-feather="list"></i></i></span>
         Sua biblioteca
       </div>
     </div>
-    <script>
-      feather.replace()
+
+    <script type="text/javascript">
+      feather.replace();
+
+      $(document).ready(function(){
+      $('.mobile-cards').slick({
+        speed: 220,
+        useTransform: false,
+        useCSS: false,
+        touchMove: true,
+        rows: 1,
+        mobileFirst: true,
+        infinite: false,
+        arrows: false,
+        slidesToShow: 3
+      });
+      });
+
     </script>
   </body>
 </html>

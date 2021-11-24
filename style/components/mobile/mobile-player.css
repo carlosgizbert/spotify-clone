@@ -8,9 +8,9 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 86vw;
-  margin-left: var(---spacing-inline-xs);
-  margin-right: var(---spacing-inline-xs);
+  width: 91vw;
+  left: 50%;
+  transform: translate(-50%);
   padding-left: var(---spacing-inline-xxs);
   padding-right: var(---spacing-inline-xxs);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.98) 0%, #000000 100%);

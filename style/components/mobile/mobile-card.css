@@ -2,7 +2,7 @@
   align-items: center;
   align-content: center;
   cursor: pointer;
-  margin-left: var(---spacing-vertical-xs);
+  margin-right: var(---spacing-inline-xs);
   text-align: center;
 }
 
@@ -14,15 +14,33 @@
   background-position: center center;
 }
 
-.mobile-cards div:first-child {
-  margin-left: 0;
-}
-
 .mobile-card img {
   width: 124px;
   height: 124px;
 }
 
+/*
+.mobile-cards:first-child {
+  margin-left: 0;
+}*/
+
 .mobile-card {
   background-size: cover;
+}
+
+/* mobile2 */
+
+.mobile-menu-btn-icon {
+  cursor: pointer;
+  padding: 16px;
+  display: inline;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.mobile-card-img {
+  width: 124px;
+  height: 124px;
+  background-size: cover;
+  background-image: url('../../../img/cover.jpg');
 }

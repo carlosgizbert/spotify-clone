@@ -39,12 +39,3 @@ main {
 .mobile-footer {
   height: 220px;
 }
-
-.mobile-menu-btn {
-  width: 100%;
-  cursor: pointer;
-}
-
-.mobile-menu-btn:hover {
-  color: var(---color-neutral-light);
-}
