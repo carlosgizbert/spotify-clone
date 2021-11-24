@@ -1,5 +1,3 @@
-feather.replace()
-
 $(document).ready(function () {
   $('.mobile-cards').slick({
     speed: 220,
