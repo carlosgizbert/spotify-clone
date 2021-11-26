@@ -2,7 +2,14 @@
 
 >status: developing ⚠️
 
-### is a clone of the Spotify app's mobile interface, developed by me with the aim of practicing and creating a scalable html/css layout.
+### is a clone of the Spotify app's mobile interface, developed by ne
+
+## objetive of aplication
+be a visually identical copy of the original application components and styles
+
+## my objetive
+practicing and creating a scalable html/css layout
+
 
 ## my steps
 
