@@ -18,8 +18,7 @@ practicing and creating a scalable html/css layout
 ![Guia de Estilos](https://user-images.githubusercontent.com/48734715/143555644-77a23b00-8bea-44f4-9f22-694dc3f0b4ba.jpg) <p>
 3) I implemented the html base structure
 4) I implemented global variables and styles with CSS
-5) I implemented home compo
-   nts and organized them into folders to improve scalability.
+5) I implemented home components and organized them into folders to improve scalability.
 
    
 ## results
