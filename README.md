@@ -1,7 +1,5 @@
 <h1> mobile home spotify clone </h1>
 
->status: developing ⚠️
-
 ### is a clone of the Spotify app's mobile interface, developed by me
 
 ## objetive of project
