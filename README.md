@@ -14,6 +14,10 @@
 4) i implemented global variables and styles with CSS
 5) i implemented home components and organized them into folders to improve scalability.
 
+   
+## result so far
+![Animação2](https://user-images.githubusercontent.com/48734715/143560066-e5c4b257-c0fd-4256-811e-ac66f7264149.gif)
+ 
 ## developed
 * ✔️ style guide with figma
 * ✔️ global style variables with CSS
@@ -22,13 +26,10 @@
 * ✔️ menu
 * ✔️ player
 
-
-
 ## next steps
 * functional music player
 * "search songs" page
 * "my library" page
-
 
 ## technologies used
 <table>
