@@ -13,8 +13,7 @@ practicing and creating a scalable html/css layout
 
 ## my steps
 
-1) I created the visual components in figma(click here to see my prototype on figma)</a> 🔗<br> 
-![CPT2111260609-362x646](https://user-images.githubusercontent.com/48734715/143555877-baabb536-95a1-46eb-ac60-4d25e9ef83f9.gif) <p>
+1) I created the visual components in figma <a href="https://www.figma.com/file/8CxFLmBPxnZNdC7KzgdGy2/Spotify---Carlos-Gizbert?node-id=0%3A1" target="_blank">(click here to see my prototype on figma)</a> 🔗<br><p>
 2) I created the global styles and components guide in figma <p>
 ![Guia de Estilos](https://user-images.githubusercontent.com/48734715/143555644-77a23b00-8bea-44f4-9f22-694dc3f0b4ba.jpg) <p>
 3) I implemented the html base structure
