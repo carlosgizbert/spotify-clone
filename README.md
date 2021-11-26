@@ -4,7 +4,11 @@
 
 ### is a clone of the Spotify app's mobile interface, developed by me with the aim of practicing and creating a scalable html/css layout.
 
-
+## meus passos
+1) criei o guia de estilos no figma
+2) implementei a estrutura base do html
+3) implementei variáveis e estilos globais com CSS
+4) implementei componentes da home e organizei em pastas para melhorar escalabilidade.
 
 ## developed
 * ✔️ style guide with figma
