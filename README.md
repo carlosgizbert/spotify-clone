@@ -4,7 +4,7 @@
 
 ### is a clone of the Spotify app's mobile interface, developed by ne
 
-## objetive of aplication
+## objetive of project
 be a visually identical copy of the original application components and styles
 
 ## my objetive
