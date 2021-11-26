@@ -1,4 +1,4 @@
-<h1> mobile spotify clone </h1>
+<h1> mobile home spotify clone </h1>
 
 >status: developing ⚠️
 
