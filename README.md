@@ -21,7 +21,7 @@ practicing and creating a scalable html/css layout
    
 ## results
    
-   <a href="https://spotify-clone-one-xi.vercel.app/views/index.html" target="_blank">https://spotify-deploy.vercel.app/views/home-mobile2.html</a> <br> <br>
+   <a href="https://spotify-clone-one-xi.vercel.app/views/index.html" target="_blank">https://spotify-clone-one-xi.vercel.app/views/index.html</a> <br> <br>
 ![Animação2](https://user-images.githubusercontent.com/48734715/143560066-e5c4b257-c0fd-4256-811e-ac66f7264149.gif)
  
 ## developed
