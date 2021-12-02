@@ -43,3 +43,73 @@
   background-size: cover;
   background-image: url('../../../img/cover.jpg');
 }
+
+.mobile-card-img {
+  width: 7.75rem;
+  height: 7.75rem;
+  background-size: cover;
+  background-image: url('../../../img/cover.jpg');
+}
+
+#recentes01 {
+  background-image: url('../../../img/artists/01_charlie_brown/1.png');
+}
+
+#recentes02 {
+  background-image: url('../../../img/artists/6_marilia/1.jpg');
+}
+
+#recentes03 {
+  background-image: url('../../../img/artists/5_elvis/1.jpg');
+}
+
+#saudade01 {
+  background-image: url('../../../img/artists/7_jorge_matheus/1].jpg');
+}
+
+#saudade02 {
+  background-image: url('../../../img/artists/02_linkin_park/1.jpg');
+}
+
+#saudade03 {
+  background-image: url('../../../img/artists/8_ludmila/1.jpg');
+}
+
+#saudade04 {
+  background-image: url('../../../img/artists/9_chris_brown/ab67616d0000b273df5b4bb2ee00999c60ce05b7.jpg');
+}
+
+#saudade05 {
+  background-image: url('../../../img/artists/5_elvis/1.jpg');
+}
+
+#feito01 {
+  background-image: url('../../../img/artists/10_alok/1.jpg');
+}
+
+#feito02 {
+  background-image: url('../../../img/artists/11_bob_marley/1.jpg');
+}
+
+#feito03 {
+  background-image: url('../../../img/artists/11_vintage/1.jpg');
+}
+
+#feito04 {
+  background-image: url('../../../img/artists/12_gustavo/1.jpg');
+}
+
+#artpref01 {
+  background-image: url('../../../img/artists/13_drake/1.jpg');
+}
+#artpref02 {
+  background-image: url('../../../img/artists/9_chris_brown/ab67616d0000b273df5b4bb2ee00999c60ce05b7.jpg');
+}
+
+#artpref03 {
+  background-image: url('../../../img/artists/03_avicii/1.jpg');
+}
+
+#artpref04 {
+  background-image: url('../../../img/artists/5_elvis/1.jpg');
+}
